@@ -14,10 +14,10 @@ def check_two_array_is_same(a, b):
         return False
 
 
-# for i in range(6):
-#     a = finoNacci(i)
-#     print(a)
+for i in range(6):
+    a = finoNacci(i)
+    print(a)
 
 
-a=check_two_array_is_same([3,1,2],[1,2,3])
-print(a)
+# a=check_two_array_is_same([3,1,2],[1,2,3])
+# print(a)

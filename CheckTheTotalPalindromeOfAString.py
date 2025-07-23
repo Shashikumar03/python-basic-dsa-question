@@ -6,13 +6,13 @@ def check_palindrome2(s):
 
     a=a.split(" ")
     print(a)
-    list=[]
+    lists=[]
     for i in a:
        print(i)
        if i==i[::-1]:
-           list.append(i)
+           lists.append(i)
 
-    return list
+    return lists
 
 
 
